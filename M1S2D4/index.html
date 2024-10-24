@@ -1,0 +1,105 @@
+<!-- Box model -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Box Model</title>
+		<style>
+			#container {
+				width: 500px;
+				background-color: burlywood;
+				border: 2px solid black;
+				padding: 30px;
+			}
+			#standard-block-element {
+				border: 1px solid red;
+				/* height: 100px; */
+				width: 100%;
+				padding: 30px;
+				background-color: aqua;
+				/* box width = 210+60+2=272 */
+			}
+			#alternative-block-element {
+				border: 1px solid red;
+				/* height: 100px; */
+				width: 100%;
+				padding: 30px;
+				/* margin: 30px; */
+				background-color: beige;
+				box-sizing: border-box;
+				/* boxwidth = content width = 210 */
+			}
+			#inline-element {
+				border: 2px solid green;
+				/* width: 200px;
+				height: 150px; */
+				/* display: block; */
+				padding: 20px 50px 20px;
+				/* margin-top: 20px; */
+				/* margin-bottom: 20px; */
+				margin-left: 20px;
+			}
+			#content {
+				width: 200px;
+				height: 100px;
+				max-width: 800px;
+				min-width: 300px;
+				background-color: lightblue;
+				padding: 20px;
+				border: 2px solid darkgray;
+				overflow: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div id="container">
+			<div id="standard-block-element">
+				I am the standard-block-element DIV element,I'll take th eentire width
+				of the screen
+			</div>
+			<div id="alternative-block-element">
+				I am the alternative-block-element DIV element,I'll take th eentire
+				width of the screen
+			</div>
+		</div> -->
+		<!-- <p>I am learning <span id="inline-element">CSS BoX</span> model today</p>
+		<p>I am learning CSS BoX model today</p> -->
+		<div id="content">
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text ever
+				since the 1500s, when an unknown printer took a galley of type and
+				scrambled it to make a type specimen book. It has survived not only five
+				centuries, but also the leap into electronic typesetting, remaining
+				essentially unchanged. It was popularised in the 1960s with the release
+				of Letraset sheets containing Lorem Ipsum passages, and more recently
+				with desktop publishing
+			</p>
+		</div>
+	</body>
+</html>
+
+<!-- Block level -->
+<!-- div,h1,p,ul -->
+<!-- 1.It will start in a new line 2. it will take the entire width of the available
+screen/it parent container irrespective of the content -->
+
+<!-- inline -->
+<!-- span,em,b, -->
+<!--  -->
+<!-- display : block
+ display:inline -->
+<!-- Box Model -->
+<!-- 1.content
+  2.Padding
+  3.border
+  4.Margin -->
+<!-- Box width = Content Width+Padding Left +Padding Right+border Left+border Right =
+210+50+50+1+1=312 -->
+
+<!-- standard box model -->
+<!-- box-sizing : content-box -->
+<!-- alternative box model -->
+<!-- box-sizing:border-box -->
+<!-- 1.max-width -->
+ <!-- display:inline-block -->
+<!-- overflow -->
