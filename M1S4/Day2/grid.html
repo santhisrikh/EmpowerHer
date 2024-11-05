@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				width: 50%;
+			}
+			.grid-container {
+				display: grid;
+				gap: 10px;
+				grid-template-columns: 100px 100px;
+				grid-template-rows: 100px 100px;
+				grid-auto-rows: 100px;
+				width: 500px;
+				height: 500px;
+				border: 2px solid black;
+				padding: 20px;
+				justify-content: space-between;
+				align-content: center;
+				justify-items: center;
+				align-items: center;
+			}
+			.grid-container > div {
+				border: 2px solid #1db7fa;
+				background-color: #fdebeb;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div>one</div>
+			<div>two</div>
+			<div>three</div>
+			<div>four</div>
+		</div>
+	</body>
+</html>
+<!-- flex-container
+ flex-items -->
+<!-- grid-container
+  grid-items -->
+<!-- grid-template-column->define the number of cloumns in the grid layout -->
+<!-- grid-template-rows->define the number of rows->height of the row -->
+<!-- grid-auto-rows-> -->
+<!-- justify-content -> main axis 
+  align-item-cross axis-->
