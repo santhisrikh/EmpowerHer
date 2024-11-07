@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.auto-fit-container {
+				display: grid;
+				gap: 10px;
+				grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+				/* grid-auto-rows: minmax(300px, auto); */
+				/* width: 80%; */
+				/* grid-template-rows: 300px; */
+				/*  */
+				/* grid-template-columns: 100px 100px 100px; */
+				/* grid-template-rows: 100px 100px 100px; */
+				/* padding: 10px; */
+				border: 2px solid #333;
+			}
+			.auto-fill-container {
+				display: grid;
+				gap: 10px;
+				grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+				border: 2px solid #333;
+				/* width: 80%; */
+			}
+			.grid-item {
+				padding: 10px;
+				background-color: lightcoral;
+				/* justify-content: center; */
+			}
+			/* .item1 {
+				justify-self: start;
+				align-self: start;
+			}
+			.item2 {
+				justify-self: end;
+				align-self: end;
+			}
+			.item3 {
+				justify-self: center;
+				align-self: center;
+			}
+			.item4 {
+				justify-self: stretch;
+				align-self: stretch;
+			} */
+		</style>
+	</head>
+	<body>
+		<h1>Grid with auto-fit</h1>
+		<div class="grid-container auto-fit-container">
+			<div class="grid-item item1">Item 1</div>
+			<div class="grid-item item2">Item 2</div>
+			<div class="grid-item item3">Item 3</div>
+			<div class="grid-item item1">Item 1</div>
+			<div class="grid-item item2">Item 2</div>
+			<div class="grid-item item3">Item 3</div>
+		</div>
+
+		<h1>Grid with auto fill</h1>
+		<div class="grid-container auto-fill-container">
+			<div class="grid-item item1">Item 1</div>
+			<div class="grid-item item2">Item 2</div>
+			<div class="grid-item item3">Item 3</div>
+			<div class="grid-item item1">Item 1</div>
+			<div class="grid-item item2">Item 2</div>
+			<div class="grid-item item3">Item 3</div>
+		</div>
+		<!-- <div class="" wrapper></div> -->
+	</body>
+</html>
+<!-- justify-self,align-self -->
+<!-- repeat() , minmax() -->
+<!-- auto-fill auto-fit -->
+<!-- negative line numbers
+  -->
