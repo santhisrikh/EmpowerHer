@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.grid-container {
+				display: grid;
+				gap: 10px;
+				grid-template-areas:
+					"a a a a"
+					"b c c c"
+					"b d d d ";
+				grid-template-columns: repeat(4, 1fr);
+				grid-template-rows: auto 1fr auto;
+				border: 1px solid black;
+				height: 100vh;
+			}
+			.header {
+				padding: 20px;
+				grid-area: a;
+				background-color: lightblue;
+			}
+			.sidebar {
+				padding: 20px;
+				grid-area: b;
+				background-color: lightcoral;
+			}
+			.main {
+				padding: 20px;
+				grid-area: c;
+				background-color: lightcyan;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				gap: 10px;
+			}
+			.footer {
+				padding: 20px;
+				grid-area: d;
+				background-color: lightgreen;
+			}
+			article {
+				border: 2px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="header">Header</div>
+			<div class="sidebar">Sidebar</div>
+			<div class="main">
+				<article>Article 1</article>
+				<article>Article 1</article>
+				<article>Article 1</article>
+				<article>Article 1</article>
+				<article>Article 1</article>
+			</div>
+			<div class="footer">Footer</div>
+		</div>
+	</body>
+</html>
+
+<!-- grrid-template-area -->
