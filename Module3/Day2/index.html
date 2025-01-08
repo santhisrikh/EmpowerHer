@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hello World</title>
+        <!-- react cdn links -->
+		<script
+			crossorigin
+			src="https://unpkg.com/react@18/umd/react.development.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+		></script>
+        <!-- babel cdn Link -->
+         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	</head>
+	<body>
+		<!-- <h1>Hello World!!</h1>
+		<p>Welcome to React Day 1 Lecture</p> -->
+		<!-- create a root element -->
+		<div id="root"></div>
+        <script type = "text/babel"  src="./script.js"></script>
+		<!-- <script>
+			// create elements
+            // let title = document.getElementById('title')
+			let h1 = document.createElement("h1");
+			let p = document.createElement("p");
+			// add the content
+			h1.textContent = "Hello World";
+			p.textContent = "Welcome to React Day 1 Lecture";
+			// append it to the body
+			document.body.appendChild(h1);
+			document.body.appendChild(p);
+			console.log(React);
+			console.log(ReactDOM);
+			const element = React.createElement(
+				"h1",
+				{ id: "heading" },
+				"Hello World",
+			);
+			const root = ReactDOM.createRoot(document.getElementById("root"));
+			root.render(element);
+		</script> -->
+	</body>
+</html>
+<!-- React ->creatin elements
+ 1 . Container => <div id = "root"></div> =>SPA
+ 2.creating element => React.creatElement(type,props,children)
+ 3.ReactDOM.createRoot(document.getElementId('root'))
+ 4.root.render(element)
+
+ compiler ,babel=>transpiler=>es6+Es5
