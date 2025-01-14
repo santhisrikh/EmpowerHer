@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>React User Card</title>
+		<!-- React and ReactDOM via CDN -->
+		<script
+			crossorigin
+			src="https://unpkg.com/react@18/umd/react.development.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+		></script>
+		<!-- Babel CDN -->
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		<style>
+			.card {
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				padding: 20px;
+				max-width: 300px;
+				text-align: center;
+				margin: 20px auto;
+			}
+			.card img {
+				width: 100px;
+				border-radius: 50%;
+				margin-bottom: 15px;
+			}
+			.card h3 {
+				margin: 10px 0;
+				font-size: 20px;
+			}
+			.card p {
+				color: gray;
+			}
+			.container {
+				display: column;
+				padding: 20px;
+				border: 2px solid #e01212;
+				justify-content: center;
+				align-items: center;
+				margin: 20px auto;
+				max-width: 500px;
+			}
+			button {
+				border: none;
+				padding: 10px;
+				/* text-align: center; */
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="text/babel" src="index.js"></script>
+	</body>
+</html>
