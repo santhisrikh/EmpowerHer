@@ -16,8 +16,7 @@ You are tasked with building a simple **Restaurant Finder App** using React. The
    Example data (you can create more entries as needed):
 
    ```json
-   json
-   CopyEdit
+  
    [
      { "id": 1, "name": "The Gourmet Kitchen", "rating": 4.5, "distance": 2.1 },
      { "id": 2, "name": "Sushi Heaven", "rating": 4.8, "distance": 3.2 },
