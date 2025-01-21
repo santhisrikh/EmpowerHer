@@ -1,12 +1,24 @@
-import TodoDashboard from "./components/TodoDashboard";
+import { createContext } from "react";
+import Layout from "./components/Day2/Layout";
 
+// export const UserContext = createContext(); // created the context
 const App = () => {
+	// const username = "John";
+	// const user = {
+	// 	username: "John",
+	// 	userEmail: "jon@gmail.com",
+	// 	userRole: "Admin",
+	// };
 	return (
 		<>
-			<h1>Todo App</h1>
-			<TodoDashboard />
+			<Layout />
 		</>
 	);
 };
 
 export default App;
+
+// context api
+
+// create Context
+// provider
