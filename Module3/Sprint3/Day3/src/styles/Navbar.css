@@ -1,0 +1,17 @@
+.navbar {
+	background-color: rgb(199, 145, 145);
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+.nav-link {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 20px;
+}
+.active {
+	color: rgb(127, 229, 255);
+	text-decoration: underline;
+}

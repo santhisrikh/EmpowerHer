@@ -1,0 +1,15 @@
+.user-card {
+	display: flex;
+	background-color: rgb(192, 192, 156);
+	padding: 20px;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+.users-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+button {
+	padding: 10px;
+}
