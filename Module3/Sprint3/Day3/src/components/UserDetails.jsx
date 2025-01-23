@@ -18,6 +18,9 @@ const UserDetails = () => {
 			.finally(setLoading(false));
 	}, []);
 
+	// if (!login) {
+	// 	navigate("/login");
+	// }
 	return (
 		<div>
 			{isLoading && <h1>Loading...</h1>}

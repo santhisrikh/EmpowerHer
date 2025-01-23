@@ -1,0 +1,19 @@
+.form-container {
+	padding: 20px;
+	max-width: 400px;
+	width: 100%;
+	margin: 100px auto;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+input[type="text"],
+input[type="password"] {
+	padding: 12px;
+	margin: 10px 0;
+	font-size: 16px;
+}
+input[type="submit"] {
+	padding: 12px;
+}

@@ -3,11 +3,14 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
+import ContextProvider from "./context/ContextProvider.jsx";
 
 createRoot(document.getElementById("root")).render(
-	<StrictMode>
-		<BrowserRouter>
+	// <StrictMode>
+	<BrowserRouter>
+		<ContextProvider>
 			<App />
-		</BrowserRouter>
-	</StrictMode>,
+		</ContextProvider>
+	</BrowserRouter>,
+	// </StrictMode>,
 );
