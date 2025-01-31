@@ -9,6 +9,8 @@ import PrivateRoute from "./components/PrivateRoute";
 import MovieDetails from "./Pages/MovieDetails";
 import AddMovie from "./Pages/AddMovie";
 import EditMovie from "./Pages/EditMovie";
+import MovieScroller from "./Pages/MovieScroller";
+import Books from "./Pages/Books";
 
 const App = () => {
 	return (
@@ -26,6 +28,15 @@ const App = () => {
 						</PrivateRoute>
 					}
 				/>
+				{/* <Route
+					path="/movies"
+					element={
+						<PrivateRoute>
+							<MovieScroller />
+						</PrivateRoute>
+					}
+				/> */}
+
 				<Route
 					path="/movies/:id"
 					element={
@@ -50,6 +61,7 @@ const App = () => {
 						</PrivateRoute>
 					}
 				/>
+				<Route path="/books" element={<Books />} />
 				<Route path="/login" element={<Login />} />
 			</Routes>
 			{/* all routes go inside */}

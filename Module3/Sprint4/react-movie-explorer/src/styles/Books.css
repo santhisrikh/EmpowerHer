@@ -1,0 +1,15 @@
+.book-card {
+	border: 2px solid grey;
+	margin: 10px;
+	max-width: 300px;
+	text-align: center;
+	padding: 10px;
+}
+.books-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	margin-top: 20px;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Align items vertically */
+}

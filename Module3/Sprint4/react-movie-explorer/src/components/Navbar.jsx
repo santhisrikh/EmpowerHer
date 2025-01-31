@@ -20,6 +20,9 @@ const Navbar = () => {
 				<Link to="/movies" className="nav-link">
 					Movies
 				</Link>
+				<Link to="/books" className="nav-link">
+					Books
+				</Link>
 			</div>
 			<div className="navbar-login">
 				{isAuthenticated ? (
