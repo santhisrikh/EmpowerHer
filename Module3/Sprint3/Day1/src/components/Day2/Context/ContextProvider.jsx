@@ -30,5 +30,3 @@ export default function ContextProvider({ children }) {
 	);
 }
 
-// theme
-// light and dark

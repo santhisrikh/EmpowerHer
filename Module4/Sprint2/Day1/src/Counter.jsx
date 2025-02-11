@@ -5,7 +5,7 @@ const Counter = () => {
 	const [count, setCount] = useState(store.getState().count);
 	console.log(store.getState()); // {count:0}
 	//store provided by redux
-	//
+
 	store.subscribe(() => {
 		setCount(store.getState().count);
 	});
@@ -22,3 +22,15 @@ const Counter = () => {
 };
 
 export default Counter;
+
+// create store
+//
+// action(user is inyercated with the UI)=>store.dispatch()
+
+// theme
+// user
+// CombineReducer
+// react-redux library
+// const [state,dispatch] = useReducer()
+// useSelector
+// useDispatch

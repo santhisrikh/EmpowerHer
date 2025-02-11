@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext, UserContext } from "./Context/ContextProvider";
 
 export default function Navbar({ count }) {
-	const data = useContext(UserContext);
+	const data = useContext(UserContext); // consuming the data
 	const { theme, toggleTheme } = useContext(ThemeContext); // consume theme conetxt
 	return (
 		<>

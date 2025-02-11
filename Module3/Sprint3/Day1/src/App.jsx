@@ -1,5 +1,7 @@
 import { createContext } from "react";
 import Layout from "./components/Day2/Layout";
+import CleanupEx from "./components/Day2/AssignmentDisc/Cleanup";
+import UserFeedback from "./components/Day2/AssignmentDisc/UserFeedback";
 
 // export const UserContext = createContext(); // created the context
 const App = () => {
@@ -11,7 +13,9 @@ const App = () => {
 	// };
 	return (
 		<>
-			<Layout />
+			{/* <Layout /> */}
+			{/* <CleanupEx /> */}
+			<UserFeedback />
 		</>
 	);
 };
