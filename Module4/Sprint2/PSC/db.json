@@ -24,7 +24,7 @@
 			"duration": 10,
 			"calories": 50,
 			"difficulty": "Beginner",
-			"image": "https://placehold.co/300x300/red/white",
+			"image": "https://placehold.co/300x300/red/white?text=Push-ups",
 			"description": "A great upper body exercise that strengthens the chest, shoulders, and arms."
 		},
 		{
@@ -34,7 +34,7 @@
 			"duration": 30,
 			"calories": 300,
 			"difficulty": "Intermediate",
-			"image": "https://placehold.co/300x300/blue/white",
+			"image": "https://placehold.co/300x300/blue/white?text=Running",
 			"description": "A high-intensity workout that improves cardiovascular endurance and burns fat."
 		},
 		{
@@ -44,7 +44,7 @@
 			"duration": 15,
 			"calories": 80,
 			"difficulty": "Beginner",
-			"image": "https://placehold.co/300x300/green/white",
+			"image": "https://placehold.co/300x300/green/white/?text=Squats",
 			"description": "An effective lower-body exercise that targets the thighs, glutes, and core."
 		},
 		{
@@ -54,7 +54,7 @@
 			"duration": 40,
 			"calories": 400,
 			"difficulty": "Advanced",
-			"image": "https://placehold.co/300x300/yellow/black",
+			"image": "https://placehold.co/300x300/yellow/black?text=Cycling",
 			"description": "A high-calorie-burning exercise that strengthens legs and improves stamina."
 		},
 		{
@@ -64,7 +64,7 @@
 			"duration": 10,
 			"calories": 150,
 			"difficulty": "Intermediate",
-			"image": "https://placehold.co/300x300/orange/white",
+			"image": "https://placehold.co/300x300/orange/white?text=Jump Rope",
 			"description": "A full-body workout that improves coordination and cardiovascular health."
 		},
 		{
@@ -74,7 +74,7 @@
 			"duration": 20,
 			"calories": 120,
 			"difficulty": "Advanced",
-			"image": "https://placehold.co/300x300/gray/white",
+			"image": "https://placehold.co/300x300/gray/white?text=Deadlifts",
 			"description": "A powerful strength exercise that targets multiple muscle groups."
 		},
 		{
@@ -84,7 +84,7 @@
 			"duration": 5,
 			"calories": 30,
 			"difficulty": "Beginner",
-			"image": "https://placehold.co/300x300/cyan/black",
+			"image": "https://placehold.co/300x300/cyan/black?text=Plank",
 			"description": "A core exercise that strengthens the abdomen, back, and shoulders."
 		},
 		{
@@ -94,7 +94,7 @@
 			"duration": 15,
 			"calories": 200,
 			"difficulty": "Advanced",
-			"image": "https://placehold.co/300x300/brown/white",
+			"image": "https://placehold.co/300x300/brown/white?text=Burpees",
 			"description": "A high-intensity full-body workout that boosts endurance and burns calories."
 		},
 		{
@@ -104,7 +104,7 @@
 			"duration": 12,
 			"calories": 90,
 			"difficulty": "Intermediate",
-			"image": "https://placehold.co/300x300/pink/black",
+			"image": "https://placehold.co/300x300/pink/black?text=Lunges",
 			"description": "A lower-body exercise that enhances balance, flexibility, and strength."
 		}
 	],

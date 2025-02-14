@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
 	fetchCategories,
 	fetchWorkouts,
-} from "../../../../../redux/actions/actions";
+} from "../../../../redux/actions/actions";
 import {
 	Heading,
 	VStack,
