@@ -1,0 +1,133 @@
+{
+	"todos": [
+		{
+			"id": "1",
+			"task": "Learn Express.js",
+			"completed": false
+		},
+		{
+			"id": "2",
+			"task": "Build a REST API",
+			"completed": false
+		},
+		{
+			"id": "3",
+			"task": "Deploy API to server",
+			"completed": false
+		}
+	],
+	"workouts": [
+		{
+			"id": "1",
+			"name": "Push-ups",
+			"category": "Strength",
+			"duration": 10,
+			"calories": 50,
+			"difficulty": "Beginner",
+			"image": "https://placehold.co/300x300/red/white",
+			"description": "A great upper body exercise that strengthens the chest, shoulders, and arms."
+		},
+		{
+			"id": "2",
+			"name": "Running",
+			"category": "Cardio",
+			"duration": 30,
+			"calories": 300,
+			"difficulty": "Intermediate",
+			"image": "https://placehold.co/300x300/blue/white",
+			"description": "A high-intensity workout that improves cardiovascular endurance and burns fat."
+		},
+		{
+			"id": "3",
+			"name": "Squats",
+			"category": "Strength",
+			"duration": 15,
+			"calories": 80,
+			"difficulty": "Beginner",
+			"image": "https://placehold.co/300x300/green/white",
+			"description": "An effective lower-body exercise that targets the thighs, glutes, and core."
+		},
+		{
+			"id": "4",
+			"name": "Cycling",
+			"category": "Cardio",
+			"duration": 40,
+			"calories": 400,
+			"difficulty": "Advanced",
+			"image": "https://placehold.co/300x300/yellow/black",
+			"description": "A high-calorie-burning exercise that strengthens legs and improves stamina."
+		},
+		{
+			"id": "6",
+			"name": "Jump Rope",
+			"category": "Cardio",
+			"duration": 10,
+			"calories": 150,
+			"difficulty": "Intermediate",
+			"image": "https://placehold.co/300x300/orange/white",
+			"description": "A full-body workout that improves coordination and cardiovascular health."
+		},
+		{
+			"id": "7",
+			"name": "Deadlifts",
+			"category": "Strength Training",
+			"duration": 20,
+			"calories": 120,
+			"difficulty": "Advanced",
+			"image": "https://placehold.co/300x300/gray/white",
+			"description": "A powerful strength exercise that targets multiple muscle groups."
+		},
+		{
+			"id": "8",
+			"name": "Plank",
+			"category": "Core Strength",
+			"duration": 5,
+			"calories": 30,
+			"difficulty": "Beginner",
+			"image": "https://placehold.co/300x300/cyan/black",
+			"description": "A core exercise that strengthens the abdomen, back, and shoulders."
+		},
+		{
+			"id": "9",
+			"name": "Burpees",
+			"category": "HIIT",
+			"duration": 15,
+			"calories": 200,
+			"difficulty": "Advanced",
+			"image": "https://placehold.co/300x300/brown/white",
+			"description": "A high-intensity full-body workout that boosts endurance and burns calories."
+		},
+		{
+			"id": "10",
+			"name": "Lunges",
+			"category": "Strength",
+			"duration": 12,
+			"calories": 90,
+			"difficulty": "Intermediate",
+			"image": "https://placehold.co/300x300/pink/black",
+			"description": "A lower-body exercise that enhances balance, flexibility, and strength."
+		}
+	],
+	"categories": [
+		{
+			"id": "1",
+			"name": "Cardio"
+		},
+		{
+			"id": "2",
+			"name": "Strength"
+		},
+		{
+			"id": "3",
+			"name": "Flexibility"
+		},
+		{
+			"id": "4",
+			"name": "Custom"
+		},
+		{
+			"id": "5",
+			"name": "HIIT"
+		}
+	]
+}
