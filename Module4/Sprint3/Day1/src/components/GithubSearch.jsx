@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
-import useDebounce from "../customHooks/useDebounce";
+import { useDebounce } from "../customHooks/useDebounce";
 
 const GithubSearch = () => {
 	const [query, setQuery] = useState("");
 	const [results, setRes] = useState([]);
 	console.log(results);
-	const handleChange = (e) => {
-		setQuery(e.target.value);
-	};
 
 	const fetchUsers = async (searchTerm) => {
 		if (!searchTerm) {
@@ -25,9 +22,13 @@ const GithubSearch = () => {
 		}
 	};
 	const debounce = useDebounce(fetchUsers, 500);
-	useEffect(() => {
-		debounce(fetchUsers(query));
-	}, [query]);
+
+	const handleChange = (e) => {
+		setQuery(e.target.value);
+		debounce(e.target.value, "another argument");
+		// fetchUsers(e.target.value);
+	};
+
 	return (
 		<div>
 			<h1>Github user Search</h1>
@@ -37,6 +38,16 @@ const GithubSearch = () => {
 				value={query}
 				onChange={handleChange}
 			/>
+			{/* {loading && <p>Loading...</p>} */}
+			<ul>
+				{results.map((user) => (
+					<li key={user.id}>
+						<a href={user.html_url} target="_blank" rel="noopener noreferrer">
+							{user.login}
+						</a>
+					</li>
+				))}
+			</ul>
 		</div>
 	);
 };
@@ -51,3 +62,13 @@ export default GithubSearch;
 // useDebounce
 //
 // const debounce = useDebounce(callback,delay)
+
+// Redux Tool Kit
+// Custom hook
+//
+
+// React.memo
+// useCalbackHook
+// useMemo
+// REact.lazy - suspense
+// 

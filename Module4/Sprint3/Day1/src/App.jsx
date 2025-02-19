@@ -1,13 +1,22 @@
 import React from "react";
-import Counter from "./components/Counter";
-import CounterCustom from "./components/CounterCustom";
-import GithubSearch from "./components/GithubSearch";
+// import Counter from "./components/Counter";
+// import CounterCustom from "./components/CounterCustom";
+// import GithubSearch from "./components/GithubSearch";
+// import { Theme } from "./components/Theme";
+import ReactMemo from "./react-optimisation-techniques/ReactMemo";
+import Parent from "./react-optimisation-techniques/Parent";
+import ReactLazyEx from "./react-optimisation-techniques/ReactLazyEx";
 
 const App = () => {
 	return (
 		<div>
-			<CounterCustom />
+			{/* <CounterCustom />
 			<GithubSearch />
+			<Theme /> */}
+			{/* <ReactMemo /> */}
+			{/* <UseMemo /> */}
+			<Parent />
+			<ReactLazyEx />
 		</div>
 	);
 };
