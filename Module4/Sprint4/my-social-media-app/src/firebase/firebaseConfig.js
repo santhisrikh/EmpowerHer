@@ -8,12 +8,12 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 // Your web app's Firebase configuration
 console.log("firebase config");
 const firebaseConfig = {
-	apiKey: "AIzaSyBkKmbAqYV5u8SKmNkbS86WEMWlvlbkwYU",
-	authDomain: "react-redux-social-media-95810.firebaseapp.com",
-	projectId: "react-redux-social-media-95810",
-	storageBucket: "react-redux-social-media-95810.firebasestorage.app",
-	messagingSenderId: "590053827238",
-	appId: "1:590053827238:web:b2002afebb6f0b32438a67",
+	apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+	authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+	projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+	storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+	messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+	appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
