@@ -6,7 +6,7 @@ import { signout } from "../../../redux/actions/authActions";
 
 const Navbar = () => {
 	// user from the store
-	let user = useSelector((state) => state.user);
+	let user = useSelector((state) => state.auth.user);
 	const dispatch = useDispatch();
 	const handleLogout = () => {
 		dispatch(signout());

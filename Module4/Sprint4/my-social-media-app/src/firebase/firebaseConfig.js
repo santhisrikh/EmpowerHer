@@ -7,6 +7,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 // Your web app's Firebase configuration
 console.log("firebase config");
+// process.env
 const firebaseConfig = {
 	apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
 	authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
