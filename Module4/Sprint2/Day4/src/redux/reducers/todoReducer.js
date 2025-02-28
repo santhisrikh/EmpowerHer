@@ -19,7 +19,7 @@ export const todoReducer = (state = initState, action) => {
 			return {
 				...state,
 				loading: false,
-				// todos: [...state.todos, action.payload],
+				todos: [...state.todos, action.payload],
 			};
 		//
 		default:

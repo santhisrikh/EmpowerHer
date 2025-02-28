@@ -1,9 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
-	DEC_COUNT,
 	decCount,
-	INC_COUNT,
 	incCount,
 } from "../store/actions/actions";
 

@@ -1,0 +1,76 @@
+.note-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: #f9f9f9;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-text {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.note-input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.note-actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.edit-button {
+	background-color: #ffc107;
+	color: white;
+	border: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: background 0.3s ease-in-out;
+	margin-right: 5px;
+}
+
+.edit-button:hover {
+	background-color: #e0a800;
+}
+
+.delete-button {
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: background 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+	background-color: #c82333;
+}
+
+.save-button {
+	background-color: #28a745;
+	color: white;
+	border: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: background 0.3s ease-in-out;
+}
+
+.save-button:hover {
+	background-color: #218838;
+}

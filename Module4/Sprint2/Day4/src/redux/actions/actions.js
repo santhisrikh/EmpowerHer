@@ -33,7 +33,8 @@ export const addTodos = (newTodo) => (dispatch) => {
 		// .then((res) => console.log(res.data))
 		.then((res) => {
 			dispatch({ type: POST_TODOS_SUCCESS, payload: res.data });
-			dispatch(fetchTodos());
+			dispatch(fetchTodos())
+			// dispatch(fetchTodos());
 		})
 
 		.catch((err) => dispatch({ type: POST_TODOS_ERROR, payload: err }));

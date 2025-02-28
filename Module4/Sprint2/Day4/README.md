@@ -2,7 +2,7 @@
 
 ### **Objective:**
 
-Develop a **Todo List Application** using **React, Redux, Redux Thunk, React Router, and Chakra UI** that allows users to manage their tasks efficiently. The application should support **CRUD operations** while maintaining state management through Redux and handling asynchronous API calls with proper loading, success, and error states.
+Develop a **Todo List Application** using **React, Redux, Redux Thunk, React Router, and Chakra UI (Bonus)** that allows users to manage their tasks efficiently. The application should support **CRUD operations** while maintaining state management through Redux and handling asynchronous API calls with proper loading, success, and error states.
 
 ---
 
@@ -84,7 +84,7 @@ export const fetchTodos = () => async (dispatch) => {
 
 ---
 
-## **5\. Routing Requirements:**
+## **5\. Routing Requirements:** (Bonus)
 
 - **Home (`/`)**: Displays the Todo List.
 - **Todo (`/todo`)**: Page for **fetching, adding, toggling, editing, and deleting** todos.
