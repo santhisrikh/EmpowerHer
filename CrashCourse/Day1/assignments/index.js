@@ -20,3 +20,7 @@ switch (opertion) {
 	default:
 		console.log("invalid Operation");
 }
+
+// Modules
+// defaults CJS
+// Ecmascript

@@ -31,4 +31,17 @@ writableStream1.on("finish", () => {
 // import ,export ,require ,module.exports
 // crypto => sceure password,api keys,genrate session tokens
 // fs=>readFile,readFileSynch,straem
-// 
+//
+
+// Express => NodeJS frame Work
+// Server , HTTP
+// Client server Model
+// HTTP/https => HyperText Transfer Protocol
+// req=>server =>set of rules (HTTP/HTTPS)
+// HTTP =>GET,POST,PUT?PATCH ,DELETE
+
+// URL=>//expressjs.com/en/starter/installing.html
+// https:=>Protocol(http/https)
+// expressjs.com=>Domain Name/server Address
+// en/starter/installing ->Path 
+// ?color=red&size=10 => query params
