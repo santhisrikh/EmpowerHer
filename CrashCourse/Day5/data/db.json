@@ -1,0 +1,32 @@
+[
+  {
+    "name": "santhi",
+    "email": "santhi123",
+    "id": 1741597738824
+  },
+  {
+    "name": "user2 updated",
+    "email": "user4@gmail.com",
+    "id": 1741597757764
+  },
+  {
+    "name": "user4",
+    "email": "user4@gmail.com",
+    "id": 1741597982981
+  },
+  {
+    "username": "santhi",
+    "password": "santhi123",
+    "id": 1741599418392
+  },
+  {
+    "username": "user5",
+    "password": "user5Password",
+    "id": 1741600174099
+  },
+  {
+    "username": "user2",
+    "password": "userPassword",
+    "id": 1741600230125
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form id="signup-form">
+			<h2>Sign Up</h2>
+			<input type="text" id="username" placeholder="Enter username" />
+			<input type="password" id="password" placeholder="Enter Password" />
+			<input type="submit" value="Signup" />
+		</form>
+	</body>
+	<script>
+		let form = document.getElementById("signup-form");
+		form.addEventListener("submit", () => {
+			event.preventDefault();
+			let username = form.username.value;
+			let password = form.password.value;
+			let userDetails = { username, password };
+			// makinf post request tot he back end and get the t]details
+
+			fetch("http://localhost:8080/users/signup", {
+				method: "POST",
+				headers: {
+					"content-type": "application/json",
+				},
+				body: JSON.stringify(userDetails),
+			})
+				.then((res) => {
+					console.log(res, "response from the backend");
+				})
+				.catch((err) => {
+					console.log(err);
+				});
+		});
+	</script>
+</html>
+
+<!-- front end url -->
+<!-- http://127.0.0.1:5500/frontend/index.html
+  back end url = >http://localhost:8080/users/signup  -->
+
+

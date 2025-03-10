@@ -1,0 +1,2 @@
+::ffff:127.0.0.1 - - [10/Mar/2025:09:59:40 +0000] "GET /users HTTP/1.1" 200 392 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [10/Mar/2025:10:00:31 +0000] "PUT /users/1741597738824 HTTP/1.1" 200 38 "-" "Thunder Client (https://www.thunderclient.com)"
