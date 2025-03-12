@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h2>Todo App</h2>
+		<input type="text" placeholder="Add todo" id="todo-input" />
+		<button onclick="addTodo()">Add Todo</button>
+
+		<div id="todo-list"></div>
+		<script>
+			const apiURL = "http://localhost:8080/todos";
+			// fetch todos from the back end
+
+			async function fetchTodos() {
+				const response = await fetch(apiURL);
+				const data = await response.json();
+				displayTodos(data.todos);
+			}
+			function displayTodos(todos) {
+				console.log(todos);
+				const todoList = document.getElementById("todo-list");
+				todoList.innerHTML = "";
+				todos.forEach((todo) => {
+					const div = document.createElement("div");
+					div.className = "todo-item";
+					div.innerHTML = `${todo.id} : ${todo.task} - ${
+						todo.status ? "Completed" : "Pending"
+					}`;
+					todoList.appendChild(div);
+				});
+			}
+			// add todo
+			async function addTodo() {
+				const input = document.getElementById("todo-input");
+				if (!input.value.trim()) return;
+				await fetch(apiURL, {
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({ task: input.value, status: false }),
+				});
+				input.value = "";
+				fetchTodos();
+			}
+
+			fetchTodos();
+		</script>
+	</body>
+</html>
